@@ -2,40 +2,55 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className='container'>
       <Head>
         <title>Website</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
-        <h1 className="title">
-          Congratulations! You've set up your webapp!
-        </h1>
+        <h1 className='title'>Congratulations! You've set up your webapp!</h1>
 
-        <p className="description">
+        <p className='description'>
           Get started by editing <code>src/pages/index.js</code>
         </p>
 
-        <div className="grid">
-          <a href="/examplepage" className="card">
-            <h3>Example Page &rarr;</h3>
+        <div className='grid'>
+          <a href='/examplepage' className='card'>
+            <h3>Example About Me Page &rarr;</h3>
             <p>Click here to navigate to an example page</p>
           </a>
-
-          <a href="https://github.com/wangalec/website-template" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Return to the Github for resources on creating your own website!</p>
+          <a
+            href='https://github.com/wangalec/website-template'
+            className='card'>
+            <h3>Project Resources&rarr;</h3>
+            <p>
+              Return to the Github for resources on creating your own website!
+            </p>
+          </a>
+          <a
+            href='https://nextjs.org/learn/foundations/about-nextjs'
+            className='card'>
+            <h3>Next.js&rarr;</h3>
+            <p>Click here to learn more about Next.js</p>
+          </a>
+          <a href='https://blog.hubspot.com/website/html' className='card'>
+            <h3>HTML and CSS &rarr;</h3>
+            <p>Click here to learn more about HTML and CSS</p>
+          </a>{' '}
+          <a href='https://tailwindcss.com/' className='card'>
+            <h3>Tailwind css&rarr;</h3>
+            <p>Click here to learn more about tailwind css</p>
+          </a>
+          <a href='https://styled-components.com/' className='card'>
+            <h3>Styled Components&rarr;</h3>
+            <p>Click here to learn more about Styled Components</p>
           </a>
         </div>
       </main>
 
       <footer>
-        <a
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href='' target='_blank' rel='noopener noreferrer'>
           Copyright CSCI 1000
         </a>
       </footer>
@@ -186,5 +201,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }

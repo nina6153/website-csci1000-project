@@ -6,6 +6,7 @@ If you feel uncomfortable with creating an "About Me" page, then you are free to
 The purpose of this project is not so much to create some beautiful website, but to familiarize yourself with using git and GitHub in a group setting. This project will force you to learn common git commands that will be used to collaborate with your team. You will also be tasked with learning how to create a simple static webpage using HTML, CSS, and some JavaScript. 
 
 Every group will have the autonomy to decide what technologies they would like to use for styling their webpage. You can use simple CSS or choose to import any other styling library like Styled Components, Tailwind CSS or MUI. 
+
 GOALS:
 
 -	Become comfortable working with other developers in a group setting.
