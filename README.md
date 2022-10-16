@@ -12,3 +12,12 @@ GOALS:
 -	Become comfortable working with other developers in a group setting.
 -	learn how to use basic git commands i.e. create branches or make pull and push requests. 
 -	Create a static website utilizing HTML, CSS and JavaScript. 
+
+
+First one team member will clone the repository. 
+
+In your terminal:
+
+git clone https://github.com/wangalec/website-template.git
+
+create a new github repository for 
