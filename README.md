@@ -14,10 +14,44 @@ GOALS:
 -	Create a static website utilizing HTML, CSS and JavaScript. 
 
 
-First one team member will clone the repository. 
+Steps to getting this project started:
 
-In your terminal:
+1. Each team will create a new github organization. An organization will be a shared github account that each team member can access.
+
+Follow the directions provided in this link. Please sign up for the free personal account.
+
+- https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch
+
+Make sure to invite all team members to the new organizaion. 
+
+2. Create an empty public repository in the organization. 
+
+One team member will clone the repository.
 
 git clone https://github.com/wangalec/website-template.git
 
-create a new github repository for 
+cd website-template
+
+
+
+
+back in you terminal 
+
+git remote set-url origin https://github.com/your-account/newly-created-github-repository.git
+
+check if the remote repository has been linked
+
+git remote -v 
+
+you should see a 
+
+origin	https://github.com/your-account/newly-created-github-repository.git (fetch)
+origin	https://github.com/your-account/newly-created-github-repository.git (push)
+
+git branch -M main
+git push -u origin main
+
+You should now see the newly cloned project in the organization's repository. 
+
+Now the rest of the team can fork that repository
+git a
