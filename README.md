@@ -59,4 +59,3 @@ Steps to getting this project started:
 
     Now you should see the newly cloned project in the organization's repository. 
 
-4. Each team member can 
