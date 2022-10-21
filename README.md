@@ -75,6 +75,8 @@ Steps to getting this project started:
     Next, we want to install all the project dependencies by typing:
     
     ``` npm install ```
+    
+        If you dont have npm installed on your computer. Check out this website for instructions: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 6. Finally, you are ready to start working on the project.
 
