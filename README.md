@@ -32,30 +32,50 @@ Steps to getting this project started:
 
     ``` git clone https://github.com/wangalec/website-template.git ```
 
-    then cd into the file website-template by typing:
+    Then cd into the file website-template by typing:
 
     ``` cd website-template ```
 
     From here, you will set the git remote repository to the url generated when creating your teams empty public repository.  
 
-    - The url looks something like this " https://github.com/your-account/newly-created-github-repository.git "
+        The url looks something like this "https://github.com/your-account/newly-created-github-repository.git"
 
     In your terminal type: 
 
+    ``` git remote set-url origin {repository url} ``` 
+
+        It will look something like this:
     ``` git remote set-url origin https://github.com/your-account/newly-created-github-repository.git ```
 
-    check if the remote repository has been linked
+    Check if the remote repository has been linked
 
     ``` git remote -v ``` 
 
-    if you set the url correctly, you will see the origin pointing to the url:
+    If you set the url correctly, you will see the origin pointing to the url:
 
     ``` origin	https://github.com/your-account/newly-created-github-repository.git (fetch) ```
     ``` origin	https://github.com/your-account/newly-created-github-repository.git (push)  ```
     
     Next type these two commands:
-    ``` git branch -M main ``
+
+    ``` git branch -M main ```
     ``` git push -u origin main ```
 
     Now you should see the newly cloned project in the organization's repository. 
 
+4. Each team member will clone the team organization repository to thier local computer.   
+
+    ``` git clone https://github.com/your-account/newly-created-github-repository.git ```
+
+    cd into project folder:
+    
+    ``` cd website-template ```
+
+    Next we want to install all the project dependencies by typing:
+    
+    ``` npm install ```
+
+6. finally, you are ready to start working on the project.
+
+
+disclaimer -- Please make sure to collaborate with you team and always run git pull before working on a new feature. git pull will help ensure that you are working on the most updated code base of your project. 
