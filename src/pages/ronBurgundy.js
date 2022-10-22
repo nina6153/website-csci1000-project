@@ -15,11 +15,16 @@ export default function examplePage() {
           />
 
           <p className='description'>
-            I dont know if you know this, but... I am kind of a big deal. I am a
-            five-time local Emmy award-winning anchor for the KVWN Channel 4
-            News in San Diego. I have many leather bound books and my apartment
-            smells of rich mahogany. When im not reading the news, you will find me playing the jazz flute around the city at different establishments.
+            I dont know if you know this, but... I am kind of a big deal. I have
+            many leather bound books and my apartment smells of rich mahogany. I
+            am also a five-time local Emmy award-winning anchor for the KVWN Channel
+            4 News in San Diego. When im not reading the news, you will find me
+            playing the jazz flute around the city at different establishments.
           </p>
+
+          <a className='button' href='/'>
+            <p> Back to Home Page</p>
+          </a>
         </main>
 
         <style jsx>{`
@@ -62,6 +67,30 @@ export default function examplePage() {
           .pic {
             height: 450px;
             width: 450px;
+          }
+
+          .button {
+            /* margin: .5rem; */
+            flex-basis: 45%;
+            padding: 0.5rem;
+            text-align: left;
+            color: inherit;
+            text-decoration: none;
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            transition: color 0.15s ease, border-color 0.15s ease;
+          }
+
+          .button:hover,
+          .button:focus,
+          .button:active {
+            color: #0070f3;
+            border-color: #0070f3;
+          }
+
+          .button p {
+            font-size: 1rem;
+            font-weight: 600;
           }
 
           code {
