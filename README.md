@@ -2,6 +2,8 @@
 Please join the Discord [HERE](https://discord.gg/Tws5ufeGKj) to talk to everyone else and so we can help you work through any problems!
 If you haven't already, please fill out this form [HERE](https://forms.gle/1b7BvPTovZsBPzjZA) for teams.
 
+Tutorial Video for project [HERE](https://youtu.be/aCXTC4FrtT4)
+
 ## Introduction:
 
 In this project, the class is going to break into groups and build an "About Me" website. 
@@ -16,7 +18,7 @@ Every group will have the autonomy to decide what technologies they would like t
 #### GOALS:
 
 -   Become comfortable with GitHub and working in a group setting
--   learn how to use basic git commands i.e. add, commit, status, branch, merge, push and pull
+-   learn how to use basic git commands i.e. add, commit, status, branch, merge, push and pull. [Git CheetSheet](http://git-cheatsheet.com/)
 -   Create a static website utilizing HTML, CSS and JavaScript. 
 
 ## Steps to getting this project started:
