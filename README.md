@@ -1,3 +1,9 @@
+# Welcome!
+Please join the Discord [HERE](https://discord.gg/Tws5ufeGKj) to talk to everyone else and so we can help you work through any problems!
+If you haven't already, please fill out this form [HERE](https://forms.gle/1b7BvPTovZsBPzjZA) for teams.
+
+## Introduction:
+
 In this project, the class is going to break into groups and build an "About Me" website. 
 
 Each group will consist of 2-5 students and every member will be tasked with creating their own web page that displays some fun information about themselves.
@@ -7,15 +13,19 @@ The purpose of this project is not so much to create some beautiful website, but
 
 Every group will have the autonomy to decide what technologies they would like to use for styling their webpage. You can use simple CSS or choose to import any other styling libraries like Styled Components, Tailwind CSS or MUI. 
 
-GOALS:
+#### GOALS:
 
 -   Become comfortable with GitHub and working in a group setting
 -   learn how to use basic git commands i.e. add, commit, status, branch, merge, push and pull
 -   Create a static website utilizing HTML, CSS and JavaScript. 
 
-Steps to getting this project started:
+## Steps to getting this project started:
 
-1. I am assuming by this time, every student has created a GitHub profile and set up git on their computer. If not, please do so.
+1. Please set up Git and npm if you haven't already. 
+
+    Here are some good resources for setting up GitHub on your device: [Github Docs](https://docs.github.com/en/get-started/quickstart/set-up-git) or this [Youtube         Video](https://www.youtube.com/watch?v=snCP3c7wXw0). 
+
+    Check if you already have npm and node by running ```node -v``` and ```npm -v```. If not, please download npm and nodejs [HERE](https://nodejs.org/en/download/)
 
 2. Each team will create a new GitHub organization. An organization will be a shared GitHub account that each team member can access.
 
